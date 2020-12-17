@@ -133,6 +133,7 @@
     }
    ],
    "source": [
+    #Use np.percentile to calculate confidence intervals
     "conf_int_wt = np.percentile(bootstrap_wt, [2.5, 97.5])\n",
     "conf_int_mut = np.percentile(bootstrap_mut, [2.5, 97.5])"
    ]
